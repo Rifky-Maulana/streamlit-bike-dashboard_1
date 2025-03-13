@@ -14,7 +14,6 @@ def load_data():
 
 merged_data = load_data()
 
-# ========== TAMBAHKAN FILTER INTERAKTIF DI SINI ==========
 st.sidebar.title("Filter Data")
 selected_seasons = st.sidebar.multiselect(
     "Pilih Musim:",
@@ -25,7 +24,6 @@ selected_seasons = st.sidebar.multiselect(
 # Filter data berdasarkan musim yang dipilih
 merged_data_filtered = merged_data[merged_data['season'].isin(selected_seasons)]
 
-# ========== MODIFIKASI SEMUA ANALISIS UNTUK PAKAI merged_data_filtered ==========
 
 st.title('Dashboard Analisis Penyewaan Sepeda')
 
