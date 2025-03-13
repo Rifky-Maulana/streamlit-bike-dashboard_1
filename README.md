@@ -30,3 +30,10 @@ setelah itu jalankan dashboard dengan perintah
 ```
 streamlit run dashboard.py
 ```
+
+## untuk menjalankan Streamlit Cloud kunjungi website
+
+```
+https://app-bike-dashboard1-3kpezc4n5ht3zgeuq8qngs.streamlit.app/
+
+```
