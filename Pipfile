@@ -4,8 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+streamlit = "*"
+pandas = "*"
+matplotlib = "==3.10"
+seaborn = "*"
+numpy = "*"
 
 [dev-packages]
 
 [requires]
-python_version = "3.13"
+python_version = "3.11"
