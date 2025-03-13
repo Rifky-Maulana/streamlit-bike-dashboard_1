@@ -1,1 +1,1 @@
-streamlit-bike-dashboard ∙ main ∙ dashboard/dashboard.py
+https://app-bike-dashboard-gxm4tsf8ye2haq6fmo4cwh.streamlit.app/
